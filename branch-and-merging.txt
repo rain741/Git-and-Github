@@ -1,0 +1,22 @@
+What does git clean do?
+What do the -d and -f flags for git clean do?
+What git command creates a branch?
+What is the difference between a fast-forward and recursive merge?
+What git command changes to another branch?
+How do you remove modified or deleted files from the working directory?
+What git command deletes a branch?
+What does the git diff command do?
+How do you remove files from the staging area?
+How do merge conflicts happen?
+
+Answer:
+1. git clean digunakan untuk menghapus file yang tidak terlacak dan dapat menghapus file secara permanen 
+2. git clean -f dapat digunakan untuk menghapus file yang tidak terlacak namun jika kita ingin menghapus direktorinya juga kita dapat menggunakan -dan
+3. git checkout -b
+4. fast forwards can only happen if there have not been commits on the original branch while the new branch is being worked on
+5. we can use git checkout
+6. git reset
+7. git branch -D 
+8. shows you a difference between two different commits
+9. git reset HEAD name_of_file or git rm --cached name_of_file
+10. When Git can not determine what file or folder to choose when merging since there have been different commits with changes to the same file
